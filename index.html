@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Digital_Clock</title>
+        <link rel="icon" type="image/svg+xml" href="clock.svg">
+        <link rel="stylesheet" href="style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+
+
+    </head>
+    <body>
+        <div class="digital-clock">
+            <div class="on-off">
+                <button id="switchBtn">OFF</button>
+            </div>
+            <div id="displayed">
+                <h1 id="switchOff">OFF</h1>
+            </div>
+                <div class="week">
+                    <div class="active">SUN</div>
+                    <div>MON</div>
+                    <div>TUE</div>
+                    <div>WED</div>
+                    <div>THU</div>
+                    <div>FRI</div>
+                    <div>SAT</div>
+                </div>
+                <div class="time">
+                    <div class="hour">12</div>
+                    <div class="dot">:</div>
+                    <div class="min">00</div>
+                    <div class="hour timezone">AM</div>
+                </div>
+                <div class="clock-feet">
+                    <span class="foot"></span>
+                    <span class="foot"></span>
+            </div>
+        </div>
+        <script src="script.js"></script>
+        <script src="on-off.js"></script>
+    </body>
+</html>
